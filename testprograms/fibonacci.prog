@@ -1,0 +1,21 @@
+input(n)
+
+def fibo(n,m){
+    fprev=0
+    output(fprev)
+    fnext=1
+    output(fnext)
+    m=1
+    while(m<n){
+    temp=fprev
+    fprev=fnext
+    fnext=temp+fnext
+    output(fnext)
+    m=m+1
+    }
+
+}
+end
+m=0
+z=call fibo(n,m)
+

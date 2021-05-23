@@ -1,0 +1,11 @@
+x=0
+i=0
+max=5
+for(i=0;i<max;i=i+1){
+    x=x+i
+    j=0
+    for(j=0;j<max;j=j+1){
+        x=x+j
+    }
+}
+output(x)

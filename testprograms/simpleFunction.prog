@@ -1,0 +1,19 @@
+input(x)
+input(y)
+/*x=3 y=2*/
+def sum(a,b){
+    c=a+b
+    return c
+}
+end
+def mult(a,b){
+    c=call sum(a,b)
+    /*c=5*/
+    c=c*b
+    return c
+}
+end
+z=call mult(x,y)
+output(z)
+
+

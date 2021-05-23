@@ -1,0 +1,11 @@
+
+
+str c="aeiou"
+
+output(c)
+
+/*length will give the  length of string c*/
+
+l=length(c)
+
+output(l)

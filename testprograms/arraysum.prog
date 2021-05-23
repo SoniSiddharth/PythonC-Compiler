@@ -1,0 +1,23 @@
+decl arr[5]
+decl brr[5]
+decl crr[5]
+
+i=0
+max=5
+for(i=0;i<max;i=i+1){
+    arr[i]=i
+    brr[i]=i+1
+}
+j=0
+for(j=0;j<max;j=j+1){
+
+    x=arr[j]
+    y=brr[j]
+    crr[j]=x+y
+}
+k=0
+for(k=0;k<max;k=k+1){
+    s=crr[k]
+    output(s)
+}
+

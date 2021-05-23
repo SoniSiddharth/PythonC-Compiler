@@ -1,0 +1,12 @@
+
+input(a)
+input(b)
+
+/*Now we will calculate the sum*/
+
+c=a+b
+
+/*print the sum*/
+
+output(c)
+

@@ -1,0 +1,17 @@
+input(a)
+input(b)
+
+if(a>b){
+    output(a)
+}else{
+    output(b)
+}
+
+c=10
+d=2
+if(d<c){
+    output(d)
+}else{
+    output(c)
+}
+

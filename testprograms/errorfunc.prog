@@ -1,0 +1,17 @@
+def sum(a,b){
+    c=a+b
+    return c
+}
+end
+
+a=8
+b=1
+j=call sum(a,b)
+/*"call" missing before function call*/
+k=sum(a,b)
+
+
+output(x)
+
+
+

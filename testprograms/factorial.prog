@@ -1,0 +1,17 @@
+input(x)
+
+
+def factorial(n,m){
+    n=n+1
+    i=1
+    fact=1
+    for(i=1;i<n;i=i+1){
+    fact=fact*i
+    }
+    return fact
+}
+end
+
+d=0
+ans=call factorial(x,d)
+output(ans)
